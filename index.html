@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edin - Web Developer</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg-body text-white font-poppins pb-12">
+    <header class="py-6">
+        <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+            <div class="text-2xl font-bold">Edin.Osmić</div>
+            <div class="hidden md:flex space-x-12 items-center">
+                <a href="#" class="text-selected-text">Home</a>
+                <a href="#work">My work</a>
+                <a href="#about">About me</a>
+                <a href="#hire"><button class="px-6 py-2 bg-theme font-bold">Hire me</button></a>
+            </div>
+            <div class="md:hidden">
+                <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white"/></svg>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <div class="flex flex-wrap md:flex-nowrap">
+
+            <nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
+                <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+                    <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
+                    </a>
+                    <a href="#work" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Work</span>
+                    </a>
+                    <a href="#about" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">About</span>
+                    </a>
+                    <a href="#hire" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Hire</span>
+                    </a>
+                </div>
+            </nav>
+
+            <div class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
+                <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Building<br> beautiful web experiences.</h1>
+                <div class="w-full flex justify-center md:justify-start">
+									<a href="#work">
+                    <button class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
+                        <div>
+                            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14.4375 11C14.4375 11.9117 14.0753 12.786 13.4307 13.4307C12.786 14.0753 11.9117 14.4375 11 14.4375C10.0883 14.4375 9.21398 14.0753 8.56932 13.4307C7.92466 12.786 7.5625 11.9117 7.5625 11C7.5625 10.0883 7.92466 9.21398 8.56932 8.56932C9.21398 7.92466 10.0883 7.5625 11 7.5625C11.9117 7.5625 12.786 7.92466 13.4307 8.56932C14.0753 9.21398 14.4375 10.0883 14.4375 11Z" fill="white"/>
+                                <path d="M0 11C0 11 4.125 3.4375 11 3.4375C17.875 3.4375 22 11 22 11C22 11 17.875 18.5625 11 18.5625C4.125 18.5625 0 11 0 11ZM11 15.8125C12.2764 15.8125 13.5004 15.3055 14.403 14.403C15.3055 13.5004 15.8125 12.2764 15.8125 11C15.8125 9.72365 15.3055 8.49957 14.403 7.59705C13.5004 6.69453 12.2764 6.1875 11 6.1875C9.72365 6.1875 8.49957 6.69453 7.59705 7.59705C6.69453 8.49957 6.1875 9.72365 6.1875 11C6.1875 12.2764 6.69453 13.5004 7.59705 14.403C8.49957 15.3055 9.72365 15.8125 11 15.8125Z" fill="white"/>
+                            </svg>								
+                        </div>
+                        <span>View my work.</span>
+                    </button>
+									</a>
+                </div>
+            </div>
+            <img src="img/testimonial1.png" alt="Testimonial" class="w-1/4 absolute hidden xl:block lg:mt-44 2xl:right-80 xl:right-44 -z-1">
+        </div>
+    </div>
+
+		<!-- My work -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="work" class="secondary-title">My work</h2>
+				<p class="section-paragraph">Below are some projects that i found interesting to work on and show my skills.</p>
+
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-52">
+					<img src="https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" class="w-full bg-nav h-36 lg:h-72 object-cover">
+					<img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" class="w-full bg-nav h-36 lg:h-72 object-cover">
+					<img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" class="w-full md:block bg-nav h-36 lg:h-72 object-cover">
+				</div>
+			</section>
+		</div>
+
+
+
+
+		<!-- About me -->
+		<div class="container mt-72 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="about" class="secondary-title">About me</h2>
+				<p class="section-paragraph">Here you can find little more informations about me and my coding skills. I like making useful things that people will use.</p>
+
+				<!-- About -->
+				<div class="space-y-12 my-16">
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam tenetur id sapiente excepturi ratione corporis necessitatibus, ea aperiam pariatur voluptatibus dicta beatae sed magni cumque voluptate architecto molestiae asperiores optio. Quae ipsum libero dignissimos sunt explicabo quaerat sed ipsa ex! Magnam iusto sint, maxime consequuntur placeat impedit, reiciendis doloribus eaque ratione inventore ad! Odit, aut. Distinctio, quod optio! Voluptatem, suscipit.</p>
+
+						<div>
+							<button>CV</button>
+							<p>Name: Edin Osmic</p>
+							<p>Location: Bosnia</p>
+							<p>Languages: Bosnian(Native), English(working proficiency)</p>
+							<p>Email: edinosmic77@gmail.com</p>
+						</div>
+
+					</div>
+
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						<div>
+							<h2>Languages</h2>
+							<p>Javascript</p>
+							<p>CSS</p>
+							<p>HTML</p>
+						</div>
+
+						<div>
+							<h2>Frameworks</h2>
+							<p>Vuejs</p>
+							<p>TailwindCSS</p>
+						</div>
+
+						<div>
+							<h2>Tools</h2>
+							<p>Git</p>
+							<p>Github</p>
+							<p>Visual Studio Code</p>
+							<p>Hostinger</p>
+							<p>Firebase</p>
+							<p>SCSS</p>
+						</div>
+
+						<div>
+							<h2>Server side</h2>
+							<p>Nodejs</p>
+						</div>
+
+						<div>
+							<h2>Soft skills</h2>
+							<p>Googling  :)</p>
+							<p>Dedication</p>
+							<p>Team spirit</p>
+							<p>Hard worker</p>
+						</div>
+					</div>
+				</div>
+
+			</section>
+		</div>
+
+
+		<!-- Hire me -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+			<section class="w-full">
+				<h2 id="hire" class="secondary-title">Hire me</h2>
+				<p class="section-paragraph">Feel free to to contact me any time, through any method below.</p>
+
+				<div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+					<div class="space-y-12">
+						<div>
+							<label class="text-white block mb-6 text-xl font-bold">Name</label>
+							<input class="w-full border border-input-border bg-input px-4 py-4">
+						</div>
+						<div>
+							<label class="text-white block mb-6 text-xl font-bold">Email</label>
+							<input type="email" class="w-full border border-input-border bg-input px-4 py-4">
+						</div>
+						<div>
+							<label class="text-white block mb-6 text-xl font-bold">Message</label>
+							<textarea type="email" class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none"></textarea>
+						</div>
+						<button class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
+					</div>
+
+					<div class="mt-12">
+						<!-- Contact info -->
+						<p class="text-secondary">+387 64-401-5684</p>
+						<a href="mailto:edinosmic77@gmail.com" class="text-secondary underline mt-3 block">edinosmic77@gmail.com</a>
+
+						<!-- Socials -->
+						<div class="flex mt-20 space-x-6">
+							<!-- Skype -->
+							<a href="https://github.com/TrendSonic">
+								<svg class="w-8 h-8 lg:w-12 lg:h-12" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+							</a>
+							<!-- Twitter -->
+							<a href="https://www.linkedin.com/in/edin-osmic-153b561a8/">
+								<svg class="w-8 h-8 lg:w-12 lg:h-12" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+							</a>
+						</div>
+					</div>
+					
+				</div>
+
+			</section>
+		</div>
+
+        <script src="main.js"></script>
+
+</body>
+</html>
